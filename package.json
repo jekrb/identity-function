@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "module.exports = function (x) { return x }",
   "main": "index.js",
+  "bin": {
+    "identity-function": "bin/cli.js"
+  },
   "keywords": [
     "identity",
     "id",
@@ -21,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/substack/identity-function/issues"
   },
-  "homepage": "https://github.com/substack/identity-function#readme"
+  "homepage": "https://github.com/substack/identity-function#readme",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
 }
